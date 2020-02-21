@@ -1,0 +1,16 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-ProceduralMesh-4182.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\Administrator\Documents\Unreal Projects\ProceduralMesh\Intermediate\Build\Win64\ProceduralMeshEditor\Development\Engine\SharedPCH.Engine.h.obj"
+"C:\Users\Administrator\Documents\Unreal Projects\ProceduralMesh\Intermediate\Build\Win64\UE4Editor\Development\ProceduralMesh\MyProceduralMesh.cpp.obj"
+"C:\Users\Administrator\Documents\Unreal Projects\ProceduralMesh\Intermediate\Build\Win64\UE4Editor\Development\ProceduralMesh\ProceduralMesh.cpp.obj"
+"C:\Users\Administrator\Documents\Unreal Projects\ProceduralMesh\Intermediate\Build\Win64\UE4Editor\Development\ProceduralMesh\MyProceduralMesh.gen.cpp.obj"
+"C:\Users\Administrator\Documents\Unreal Projects\ProceduralMesh\Intermediate\Build\Win64\UE4Editor\Development\ProceduralMesh\ProceduralMesh.init.gen.cpp.obj"
+"C:\Users\Administrator\Documents\Unreal Projects\ProceduralMesh\Intermediate\Build\Win64\UE4Editor\Development\ProceduralMesh\Default.rc2.res"
+/OUT:"C:\Users\Administrator\Documents\Unreal Projects\ProceduralMesh\Intermediate\Build\Win64\UE4Editor\Development\ProceduralMesh\UE4Editor-ProceduralMesh-4182.lib"
+/INCLUDE:IMPLEMENT_MODULE_ProceduralMesh
