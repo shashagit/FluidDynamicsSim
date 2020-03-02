@@ -1,3 +1,0 @@
-C:\Users\Administrator\Documents\Unreal Projects\ProceduralMesh\Source\ProceduralMesh\ProceduralMesh.Build.cs
-C:\Users\Administrator\Documents\Unreal Projects\ProceduralMesh\Source\ProceduralMesh.Target.cs
-C:\Users\Administrator\Documents\Unreal Projects\ProceduralMesh\Source\ProceduralMeshEditor.Target.cs

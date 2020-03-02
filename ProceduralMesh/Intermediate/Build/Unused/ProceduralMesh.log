@@ -1,4 +1,0 @@
-﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\Developer\Unreal\FluidDynamicsSim).
-  Parsing headers for ProceduralMeshEditor
-    Running UnrealHeaderTool "D:\Developer\Unreal\FluidDynamicsSim\ProceduralMesh\ProceduralMesh.uproject" "D:\Developer\Unreal\FluidDynamicsSim\ProceduralMesh\Intermediate\Build\Win64\ProceduralMeshEditor\Development\ProceduralMeshEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(44,5): warning MSB5021: Terminating the task executable "cmd" and its child processes because the build was canceled.
