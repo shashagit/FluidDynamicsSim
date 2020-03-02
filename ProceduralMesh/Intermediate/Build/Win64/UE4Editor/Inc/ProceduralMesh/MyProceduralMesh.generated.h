@@ -13,6 +13,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define PROCEDURALMESH_MyProceduralMesh_generated_h
 
+#define ProceduralMesh_Source_ProceduralMesh_MyProceduralMesh_h_13_SPARSE_DATA
 #define ProceduralMesh_Source_ProceduralMesh_MyProceduralMesh_h_13_RPC_WRAPPERS
 #define ProceduralMesh_Source_ProceduralMesh_MyProceduralMesh_h_13_RPC_WRAPPERS_NO_PURE_DECLS
 #define ProceduralMesh_Source_ProceduralMesh_MyProceduralMesh_h_13_INCLASS_NO_PURE_DECLS \
@@ -20,7 +21,7 @@ private: \
 	static void StaticRegisterNativesAMyProceduralMesh(); \
 	friend struct Z_Construct_UClass_AMyProceduralMesh_Statics; \
 public: \
-	DECLARE_CLASS(AMyProceduralMesh, AActor, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/ProceduralMesh"), NO_API) \
+	DECLARE_CLASS(AMyProceduralMesh, AActor, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/ProceduralMesh"), NO_API) \
 	DECLARE_SERIALIZER(AMyProceduralMesh)
 
 
@@ -29,7 +30,7 @@ private: \
 	static void StaticRegisterNativesAMyProceduralMesh(); \
 	friend struct Z_Construct_UClass_AMyProceduralMesh_Statics; \
 public: \
-	DECLARE_CLASS(AMyProceduralMesh, AActor, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/ProceduralMesh"), NO_API) \
+	DECLARE_CLASS(AMyProceduralMesh, AActor, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/ProceduralMesh"), NO_API) \
 	DECLARE_SERIALIZER(AMyProceduralMesh)
 
 
@@ -66,6 +67,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AMyProceduralMesh); \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	ProceduralMesh_Source_ProceduralMesh_MyProceduralMesh_h_13_PRIVATE_PROPERTY_OFFSET \
+	ProceduralMesh_Source_ProceduralMesh_MyProceduralMesh_h_13_SPARSE_DATA \
 	ProceduralMesh_Source_ProceduralMesh_MyProceduralMesh_h_13_RPC_WRAPPERS \
 	ProceduralMesh_Source_ProceduralMesh_MyProceduralMesh_h_13_INCLASS \
 	ProceduralMesh_Source_ProceduralMesh_MyProceduralMesh_h_13_STANDARD_CONSTRUCTORS \
@@ -77,6 +79,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	ProceduralMesh_Source_ProceduralMesh_MyProceduralMesh_h_13_PRIVATE_PROPERTY_OFFSET \
+	ProceduralMesh_Source_ProceduralMesh_MyProceduralMesh_h_13_SPARSE_DATA \
 	ProceduralMesh_Source_ProceduralMesh_MyProceduralMesh_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
 	ProceduralMesh_Source_ProceduralMesh_MyProceduralMesh_h_13_INCLASS_NO_PURE_DECLS \
 	ProceduralMesh_Source_ProceduralMesh_MyProceduralMesh_h_13_ENHANCED_CONSTRUCTORS \

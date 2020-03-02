@@ -46,6 +46,31 @@ public:
 	void GenerateTriangles();
 	void ClearMeshData();
 
+	// 2D Wave Simulation
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "MuProceduralMesh")
+		TArray<float> Amn;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "MuProceduralMesh")
+		int32 m;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "MuProceduralMesh")
+		int32 n;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "MuProceduralMesh")
+		float k;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "MuProceduralMesh")
+		float a;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "MuProceduralMesh")
+		float b;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "MuProceduralMesh")
+		float c;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "MuProceduralMesh")
+		float deltaX;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "MuProceduralMesh")
+		float deltaY;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "MuProceduralMesh")
+		float time;
+	
+	void PrecalculateAmn();
+	void CalculateWaveHeight(float);
+	
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;

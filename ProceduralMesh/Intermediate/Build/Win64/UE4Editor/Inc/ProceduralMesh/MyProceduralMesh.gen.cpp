@@ -37,6 +37,47 @@ void EmptyLinkFunctionForGeneratedCodeMyProceduralMesh() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_time_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_time;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_deltaY_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_deltaY;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_deltaX_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_deltaX;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_c_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_c;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_b_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_b;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_a_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_a;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_k_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_k;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_n_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FIntPropertyParams NewProp_n;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_m_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FIntPropertyParams NewProp_m;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Amn_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_Amn;
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_Amn_Inner;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_generateMesh_MetaData[];
 #endif
 		static void NewProp_generateMesh_SetBit(void* Obj);
@@ -102,6 +143,79 @@ void EmptyLinkFunctionForGeneratedCodeMyProceduralMesh() {}
 	};
 #endif
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_time_MetaData[] = {
+		{ "Category", "MuProceduralMesh" },
+		{ "ModuleRelativePath", "MyProceduralMesh.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_time = { "time", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMyProceduralMesh, time), METADATA_PARAMS(Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_time_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_time_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_deltaY_MetaData[] = {
+		{ "Category", "MuProceduralMesh" },
+		{ "ModuleRelativePath", "MyProceduralMesh.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_deltaY = { "deltaY", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMyProceduralMesh, deltaY), METADATA_PARAMS(Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_deltaY_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_deltaY_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_deltaX_MetaData[] = {
+		{ "Category", "MuProceduralMesh" },
+		{ "ModuleRelativePath", "MyProceduralMesh.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_deltaX = { "deltaX", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMyProceduralMesh, deltaX), METADATA_PARAMS(Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_deltaX_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_deltaX_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_c_MetaData[] = {
+		{ "Category", "MuProceduralMesh" },
+		{ "ModuleRelativePath", "MyProceduralMesh.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_c = { "c", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMyProceduralMesh, c), METADATA_PARAMS(Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_c_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_c_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_b_MetaData[] = {
+		{ "Category", "MuProceduralMesh" },
+		{ "ModuleRelativePath", "MyProceduralMesh.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_b = { "b", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMyProceduralMesh, b), METADATA_PARAMS(Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_b_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_b_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_a_MetaData[] = {
+		{ "Category", "MuProceduralMesh" },
+		{ "ModuleRelativePath", "MyProceduralMesh.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_a = { "a", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMyProceduralMesh, a), METADATA_PARAMS(Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_a_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_a_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_k_MetaData[] = {
+		{ "Category", "MuProceduralMesh" },
+		{ "ModuleRelativePath", "MyProceduralMesh.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_k = { "k", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMyProceduralMesh, k), METADATA_PARAMS(Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_k_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_k_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_n_MetaData[] = {
+		{ "Category", "MuProceduralMesh" },
+		{ "ModuleRelativePath", "MyProceduralMesh.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_n = { "n", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMyProceduralMesh, n), METADATA_PARAMS(Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_n_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_n_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_m_MetaData[] = {
+		{ "Category", "MuProceduralMesh" },
+		{ "ModuleRelativePath", "MyProceduralMesh.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_m = { "m", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMyProceduralMesh, m), METADATA_PARAMS(Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_m_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_m_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_Amn_MetaData[] = {
+		{ "Category", "MuProceduralMesh" },
+		{ "Comment", "// 2D Wave Simulation\n" },
+		{ "ModuleRelativePath", "MyProceduralMesh.h" },
+		{ "ToolTip", "2D Wave Simulation" },
+	};
+#endif
+	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_Amn = { "Amn", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMyProceduralMesh, Amn), METADATA_PARAMS(Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_Amn_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_Amn_MetaData)) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_Amn_Inner = { "Amn", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, METADATA_PARAMS(nullptr, 0) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_generateMesh_MetaData[] = {
 		{ "Category", "MuProceduralMesh" },
 		{ "ModuleRelativePath", "MyProceduralMesh.h" },
@@ -111,69 +225,69 @@ void EmptyLinkFunctionForGeneratedCodeMyProceduralMesh() {}
 	{
 		((AMyProceduralMesh*)Obj)->generateMesh = 1;
 	}
-	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_generateMesh = { "generateMesh", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(AMyProceduralMesh), &Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_generateMesh_SetBit, METADATA_PARAMS(Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_generateMesh_MetaData, ARRAY_COUNT(Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_generateMesh_MetaData)) };
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_generateMesh = { "generateMesh", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(AMyProceduralMesh), &Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_generateMesh_SetBit, METADATA_PARAMS(Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_generateMesh_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_generateMesh_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_spacing_MetaData[] = {
 		{ "Category", "MuProceduralMesh" },
 		{ "ModuleRelativePath", "MyProceduralMesh.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_spacing = { "spacing", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMyProceduralMesh, spacing), METADATA_PARAMS(Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_spacing_MetaData, ARRAY_COUNT(Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_spacing_MetaData)) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_spacing = { "spacing", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMyProceduralMesh, spacing), METADATA_PARAMS(Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_spacing_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_spacing_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_width_MetaData[] = {
 		{ "Category", "MuProceduralMesh" },
 		{ "ModuleRelativePath", "MyProceduralMesh.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_width = { "width", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMyProceduralMesh, width), METADATA_PARAMS(Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_width_MetaData, ARRAY_COUNT(Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_width_MetaData)) };
+	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_width = { "width", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMyProceduralMesh, width), METADATA_PARAMS(Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_width_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_width_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_height_MetaData[] = {
 		{ "Category", "MuProceduralMesh" },
 		{ "ModuleRelativePath", "MyProceduralMesh.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_height = { "height", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMyProceduralMesh, height), METADATA_PARAMS(Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_height_MetaData, ARRAY_COUNT(Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_height_MetaData)) };
+	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_height = { "height", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMyProceduralMesh, height), METADATA_PARAMS(Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_height_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_height_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_tangents_MetaData[] = {
 		{ "ModuleRelativePath", "MyProceduralMesh.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_tangents = { "tangents", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMyProceduralMesh, tangents), METADATA_PARAMS(Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_tangents_MetaData, ARRAY_COUNT(Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_tangents_MetaData)) };
+	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_tangents = { "tangents", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMyProceduralMesh, tangents), METADATA_PARAMS(Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_tangents_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_tangents_MetaData)) };
 	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_tangents_Inner = { "tangents", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UScriptStruct_FProcMeshTangent, METADATA_PARAMS(nullptr, 0) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_vertexColors_MetaData[] = {
 		{ "ModuleRelativePath", "MyProceduralMesh.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_vertexColors = { "vertexColors", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMyProceduralMesh, vertexColors), METADATA_PARAMS(Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_vertexColors_MetaData, ARRAY_COUNT(Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_vertexColors_MetaData)) };
+	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_vertexColors = { "vertexColors", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMyProceduralMesh, vertexColors), METADATA_PARAMS(Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_vertexColors_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_vertexColors_MetaData)) };
 	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_vertexColors_Inner = { "vertexColors", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UScriptStruct_FLinearColor, METADATA_PARAMS(nullptr, 0) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_uvs_MetaData[] = {
 		{ "ModuleRelativePath", "MyProceduralMesh.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_uvs = { "uvs", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMyProceduralMesh, uvs), METADATA_PARAMS(Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_uvs_MetaData, ARRAY_COUNT(Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_uvs_MetaData)) };
+	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_uvs = { "uvs", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMyProceduralMesh, uvs), METADATA_PARAMS(Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_uvs_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_uvs_MetaData)) };
 	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_uvs_Inner = { "uvs", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UScriptStruct_FVector2D, METADATA_PARAMS(nullptr, 0) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_triangles_MetaData[] = {
 		{ "ModuleRelativePath", "MyProceduralMesh.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_triangles = { "triangles", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMyProceduralMesh, triangles), METADATA_PARAMS(Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_triangles_MetaData, ARRAY_COUNT(Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_triangles_MetaData)) };
+	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_triangles = { "triangles", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMyProceduralMesh, triangles), METADATA_PARAMS(Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_triangles_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_triangles_MetaData)) };
 	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_triangles_Inner = { "triangles", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, METADATA_PARAMS(nullptr, 0) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_normals_MetaData[] = {
 		{ "ModuleRelativePath", "MyProceduralMesh.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_normals = { "normals", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMyProceduralMesh, normals), METADATA_PARAMS(Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_normals_MetaData, ARRAY_COUNT(Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_normals_MetaData)) };
+	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_normals = { "normals", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMyProceduralMesh, normals), METADATA_PARAMS(Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_normals_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_normals_MetaData)) };
 	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_normals_Inner = { "normals", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(nullptr, 0) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_vertices_MetaData[] = {
 		{ "ModuleRelativePath", "MyProceduralMesh.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_vertices = { "vertices", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMyProceduralMesh, vertices), METADATA_PARAMS(Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_vertices_MetaData, ARRAY_COUNT(Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_vertices_MetaData)) };
+	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_vertices = { "vertices", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMyProceduralMesh, vertices), METADATA_PARAMS(Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_vertices_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_vertices_MetaData)) };
 	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_vertices_Inner = { "vertices", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(nullptr, 0) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_pm_MetaData[] = {
@@ -182,8 +296,19 @@ void EmptyLinkFunctionForGeneratedCodeMyProceduralMesh() {}
 		{ "ModuleRelativePath", "MyProceduralMesh.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_pm = { "pm", nullptr, (EPropertyFlags)0x00400000000a0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMyProceduralMesh, pm), Z_Construct_UClass_UProceduralMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_pm_MetaData, ARRAY_COUNT(Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_pm_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_pm = { "pm", nullptr, (EPropertyFlags)0x00400000000a0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMyProceduralMesh, pm), Z_Construct_UClass_UProceduralMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_pm_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_pm_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AMyProceduralMesh_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_time,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_deltaY,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_deltaX,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_c,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_b,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_a,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_k,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_n,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_m,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_Amn,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_Amn_Inner,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_generateMesh,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_spacing,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyProceduralMesh_Statics::NewProp_width,
@@ -207,18 +332,18 @@ void EmptyLinkFunctionForGeneratedCodeMyProceduralMesh() {}
 	};
 	const UE4CodeGen_Private::FClassParams Z_Construct_UClass_AMyProceduralMesh_Statics::ClassParams = {
 		&AMyProceduralMesh::StaticClass,
-		nullptr,
+		"Engine",
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
 		nullptr,
 		Z_Construct_UClass_AMyProceduralMesh_Statics::PropPointers,
 		nullptr,
-		ARRAY_COUNT(DependentSingletons),
+		UE_ARRAY_COUNT(DependentSingletons),
 		0,
-		ARRAY_COUNT(Z_Construct_UClass_AMyProceduralMesh_Statics::PropPointers),
+		UE_ARRAY_COUNT(Z_Construct_UClass_AMyProceduralMesh_Statics::PropPointers),
 		0,
-		0x009000A0u,
-		METADATA_PARAMS(Z_Construct_UClass_AMyProceduralMesh_Statics::Class_MetaDataParams, ARRAY_COUNT(Z_Construct_UClass_AMyProceduralMesh_Statics::Class_MetaDataParams))
+		0x009000A4u,
+		METADATA_PARAMS(Z_Construct_UClass_AMyProceduralMesh_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_AMyProceduralMesh_Statics::Class_MetaDataParams))
 	};
 	UClass* Z_Construct_UClass_AMyProceduralMesh()
 	{
@@ -229,7 +354,7 @@ void EmptyLinkFunctionForGeneratedCodeMyProceduralMesh() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AMyProceduralMesh, 2399624097);
+	IMPLEMENT_CLASS(AMyProceduralMesh, 538666399);
 	template<> PROCEDURALMESH_API UClass* StaticClass<AMyProceduralMesh>()
 	{
 		return AMyProceduralMesh::StaticClass();

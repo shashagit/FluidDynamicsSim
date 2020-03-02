@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"D:\\Developer\\Unreal\\FluidDynamicsSim\\ProceduralMesh\\Source\\ProceduralMesh\\ProceduralMesh.Build.cs",
+		"D:\\Developer\\Unreal\\FluidDynamicsSim\\ProceduralMesh\\Source\\ProceduralMesh.Target.cs",
+		"D:\\Developer\\Unreal\\FluidDynamicsSim\\ProceduralMesh\\Source\\ProceduralMeshEditor.Target.cs"
+	],
+	"EngineVersion": "4.24.1"
+}

@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeProceduralMesh_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x81178993,
+				0xCE159D36,
 				0x51885AE6,
 				METADATA_PARAMS(nullptr, 0)
 			};

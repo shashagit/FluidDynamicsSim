@@ -66,6 +66,7 @@
 "C:\Epic\UE4\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Development\Core\UE4Editor-Core.lib"
 "C:\Epic\UE4\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Development\CoreUObject\UE4Editor-CoreUObject.lib"
 "C:\Epic\UE4\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Development\InputCore\UE4Editor-InputCore.lib"
+"C:\Epic\UE4\UE_4.22\Engine\Plugins\Runtime\ProceduralMeshComponent\Intermediate\Build\Win64\UE4Editor\Development\ProceduralMeshComponent\UE4Editor-ProceduralMeshComponent.lib"
 /OUT:"C:\Users\Administrator\Documents\Unreal Projects\ProceduralMesh\Binaries\Win64\UE4Editor-ProceduralMesh.dll"
 /IMPLIB:"C:\Users\Administrator\Documents\Unreal Projects\ProceduralMesh\Intermediate\Build\Win64\UE4Editor\Development\ProceduralMesh\UE4Editor-ProceduralMesh.suppressed.lib"
 /PDB:"C:\Users\Administrator\Documents\Unreal Projects\ProceduralMesh\Binaries\Win64\UE4Editor-ProceduralMesh.pdb"

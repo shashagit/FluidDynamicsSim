@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "ProceduralMesh",
+			"Path": "D:\\Developer\\Unreal\\FluidDynamicsSim\\ProceduralMesh\\Source\\ProceduralMesh.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "ProceduralMeshEditor",
+			"Path": "D:\\Developer\\Unreal\\FluidDynamicsSim\\ProceduralMesh\\Source\\ProceduralMeshEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

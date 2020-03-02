@@ -1,14 +1,4 @@
-﻿  Creating makefile for ProceduralMeshEditor (ini files are newer than makefile)
+﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\Developer\Unreal\FluidDynamicsSim).
   Parsing headers for ProceduralMeshEditor
-    Running UnrealHeaderTool "C:\Users\Administrator\Documents\Unreal Projects\ProceduralMesh\ProceduralMesh.uproject" "C:\Users\Administrator\Documents\Unreal Projects\ProceduralMesh\Intermediate\Build\Win64\ProceduralMeshEditor\Development\ProceduralMeshEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for ProceduralMeshEditor in 5.9821 seconds
-  Using Visual Studio 2017 14.16.27023 toolchain (C:\VS2017\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 4 actions with 8 processes...
-    [1/4] MyProceduralMesh.cpp
-    [2/4] UE4Editor-ProceduralMesh.lib
-       Creating library C:\Users\Administrator\Documents\Unreal Projects\ProceduralMesh\Intermediate\Build\Win64\UE4Editor\Development\ProceduralMesh\UE4Editor-ProceduralMesh.lib and object C:\Users\Administrator\Documents\Unreal Projects\ProceduralMesh\Intermediate\Build\Win64\UE4Editor\Development\ProceduralMesh\UE4Editor-ProceduralMesh.exp
-    [3/4] UE4Editor-ProceduralMesh.dll
-       Creating library C:\Users\Administrator\Documents\Unreal Projects\ProceduralMesh\Intermediate\Build\Win64\UE4Editor\Development\ProceduralMesh\UE4Editor-ProceduralMesh.suppressed.lib and object C:\Users\Administrator\Documents\Unreal Projects\ProceduralMesh\Intermediate\Build\Win64\UE4Editor\Development\ProceduralMesh\UE4Editor-ProceduralMesh.suppressed.exp
-    [4/4] ProceduralMeshEditor.target
-  Total time in Parallel executor: 1.92 seconds
-  Total execution time: 9.80 seconds
+    Running UnrealHeaderTool "D:\Developer\Unreal\FluidDynamicsSim\ProceduralMesh\ProceduralMesh.uproject" "D:\Developer\Unreal\FluidDynamicsSim\ProceduralMesh\Intermediate\Build\Win64\ProceduralMeshEditor\Development\ProceduralMeshEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(44,5): warning MSB5021: Terminating the task executable "cmd" and its child processes because the build was canceled.

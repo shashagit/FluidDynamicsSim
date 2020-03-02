@@ -429,6 +429,10 @@
 /I "C:\Users\Administrator\Documents\Unreal Projects\ProceduralMesh\Intermediate\Build\Win64\UE4Editor\Inc\ProceduralMesh"
 /I "C:\Users\Administrator\Documents\Unreal Projects\ProceduralMesh\Source"
 /I "C:\Users\Administrator\Documents\Unreal Projects\ProceduralMesh\Source\ProceduralMesh"
+/I ..\Plugins\Runtime\ProceduralMeshComponent\Intermediate\Build\Win64\UE4Editor\Inc\ProceduralMeshComponent
+/I ..\Plugins\Runtime\ProceduralMeshComponent\Source
+/I ..\Plugins\Runtime\ProceduralMeshComponent\Source\ProceduralMeshComponent\Public
+/I ..\Plugins\Runtime\ProceduralMeshComponent\Source\ProceduralMeshComponent
 /I C:\VS2017\VC\Tools\MSVC\14.16.27023\INCLUDE
 /I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"

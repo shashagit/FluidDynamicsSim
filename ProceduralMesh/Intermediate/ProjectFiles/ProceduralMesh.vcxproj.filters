@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\ProceduralMesh.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{A3A14FDB-62E5-4B96-B411-5C65871063B8}</UniqueIdentifier>
+      <UniqueIdentifier>{28BB8825-6F12-4EE6-84F7-FD78862190FA}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\ProceduralMesh.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{2C44A2D0-FA5F-41F5-9807-F24A7A0DA372}</UniqueIdentifier>
+      <UniqueIdentifier>{854F6DA1-F808-4CE2-AD4C-0E31A5B0E955}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -24,7 +24,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\ProceduralMesh">
-      <UniqueIdentifier>{E163ED3A-C9FE-4A26-A0B3-6959023064A4}</UniqueIdentifier>
+      <UniqueIdentifier>{B995DB3A-6F7A-408B-898E-394225627E12}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\ProceduralMesh\MyProceduralMesh.cpp">
       <Filter>Source\ProceduralMesh</Filter>
