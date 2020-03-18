@@ -72,3 +72,8 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+/ProceduralMesh/Binaries
+/ProceduralMesh/Build/WindowsNoEditor/FileOpenOrder
+/ProceduralMesh/Executable/x64/WindowsNoEditor
+/ProceduralMesh/Intermediate
+/ProceduralMesh/Saved

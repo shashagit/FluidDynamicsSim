@@ -50,11 +50,11 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "MuProceduralMesh")
 		TArray<float> Amn;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "MuProceduralMesh")
+		TArray<float> Kmn;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "MuProceduralMesh")
 		int32 m;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "MuProceduralMesh")
 		int32 n;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "MuProceduralMesh")
-		float k;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "MuProceduralMesh")
 		float a;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "MuProceduralMesh")
@@ -67,9 +67,17 @@ public:
 		float deltaY;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "MuProceduralMesh")
 		float time;
-	
+
+	float func(int i, int j);
 	void PrecalculateAmn();
 	void CalculateWaveHeight(float);
+
+	// Numerical Method
+	bool isInitialCondition;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "MuProceduralMesh")
+	TArray<float> previousHeight;
+	void CalculateInitialPosition(float deltaTime);
+	void CalculateWaveHeightNumerically(float deltaTime);
 	
 protected:
 	// Called when the game starts or when spawned
